@@ -1,0 +1,19 @@
+/****** Solución .Net Framework ******/
+/*
+Descripción: Entrega los 100 elementos de la serie de fibonacci
+Verbo:GET
+*/
+URL: http://thankful-001-site3.itempurl.com/api/GeekBank
+
+/*
+Descripción: Suma dos números y valida si la respuesta está entre los 100 primeros elementos de la serie de fibonacci
+Verbo:POST
+*/
+URL: http://thankful-001-site3.itempurl.com/api/GeekBank
+JsonRequest =>
+{
+    "numero1": 1,
+    "numero2": 1,
+    "usuario": "Wilson Laguna",
+    "ipOrigen": "localhost"
+}

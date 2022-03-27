@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeeksBankAPI", "GeeksBankAPI\GeeksBankAPI.csproj", "{21C4E17C-915F-404C-8D46-9620100E7616}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21C4E17C-915F-404C-8D46-9620100E7616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21C4E17C-915F-404C-8D46-9620100E7616}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21C4E17C-915F-404C-8D46-9620100E7616}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21C4E17C-915F-404C-8D46-9620100E7616}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6542AFA-85DB-4668-B45E-C6B1E8CF6732}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="db_a427b7_presttiModelStoreContainer" CdmEntityContainer="db_a427b7_presttiEntities">
+    <EntitySetMapping Name="Request">
+      <EntityTypeMapping TypeName="db_a427b7_presttiModel.Request">
+        <MappingFragment StoreEntitySet="Request">
+          <ScalarProperty Name="IpOrigen" ColumnName="IpOrigen" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+          <ScalarProperty Name="EncontradoEnSecuencia" ColumnName="EncontradoEnSecuencia" />
+          <ScalarProperty Name="Resultado" ColumnName="Resultado" />
+          <ScalarProperty Name="Numero2" ColumnName="Numero2" />
+          <ScalarProperty Name="Numero1" ColumnName="Numero1" />
+          <ScalarProperty Name="IdRequest" ColumnName="IdRequest" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
