@@ -17,3 +17,43 @@ JsonRequest =>
     "usuario": "Wilson Laguna",
     "ipOrigen": "localhost"
 }
+JsonResponse=>
+{
+    "data": {
+        "Usuario": "Wilson Laguna",
+        "IpOrigen": "localhost",
+        "Numero1": 1.0,
+        "Numero2": 1.0,
+        "Suma": 2.0,
+        "ExisteEnFibo": true
+    }
+}
+-----------------------------------------------------------------------------------------------------------------------------------------
+/****** Solución .Net Core ******/
+/*
+Descripción: Entrega los 100 elementos de la serie de fibonacci
+Verbo:GET
+*/
+http://thankful-001-site4.itempurl.com/api/GeekBank
+
+/*
+Descripción: Suma dos números y valida si la respuesta está entre los 100 primeros elementos de la serie de fibonacci
+Verbo:POST
+*/
+http://thankful-001-site4.itempurl.com/api/GeekBank
+JsonRequest =>
+{
+    "numero1": 83621143489848422977,
+    "numero2": 135301852344706746049,
+    "usuario": "Elena Laguna",
+    "ipOrigen": "localhost"
+}
+JsonResponse =>
+{
+    "usuario": "Elena Laguna",
+    "ipOrigen": "localhost",
+    "numero1": 83621143489848422977,
+    "numero2": 135301852344706746049,
+    "suma": 218922995834555169026,
+    "existeEnFibo": true
+}
