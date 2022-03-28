@@ -40,7 +40,9 @@ namespace GeeksBankAPI
 
             app.UseAuthorization();
 
-            app.UseCors();
+            app.UseCors(c =>
+                c.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin()
+            );
 
             app.UseEndpoints(endpoints =>
             {
