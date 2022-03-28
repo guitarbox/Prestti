@@ -11,7 +11,7 @@ export function App(){
         
     const handleTodoAdd = () => {        
         if(numero1.current.value <= 0 || numero2.current.value <= 0) { alert('Por favor ingrese números mayor que 0'); }
-        else{
+        else{            
             setState({ blocking: true });
             fetch('http://thankful-001-site4.itempurl.com/api/GeekBank', {
                 method: 'POST', 
@@ -22,7 +22,7 @@ export function App(){
                 },
                 redirect: 'follow',
                 referrerPolicy: 'no-referrer',
-                body: JSON.stringify({ numero1: numero1.current.value, numero2: numero2.current.value, usuario: nombreUsuario.current.value, ipOrigen: 'reactUserIp' })
+                body: JSON.stringify({ numero1: numero1.current.value, numero2: numero2.current.value, usuario: nombreUsuario.current.value })
             })
             .then(response => {                
                 return response.json();
